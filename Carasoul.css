@@ -1,0 +1,30 @@
+.carousel {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+}
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.carousel-images img {
+  width: 600px;
+  height: 400px;
+}
+.nav-button {
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transform: translateY(-50%);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
